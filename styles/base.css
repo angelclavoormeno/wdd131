@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+p, a, h1, h2, h3, span {
+    font-family: "Oswald", sans-serif;
+}
+
 img {
     max-width: 200px;
 }
