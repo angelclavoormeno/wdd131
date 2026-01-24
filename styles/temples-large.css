@@ -1,0 +1,43 @@
+@media (min-width: 740px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    nav a {
+        flex: 1 1 100%;
+    }
+
+    main {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8em;
+        align-items: center;
+        text-align: center;
+    }
+
+    main h1 {
+        padding-top: 0.8em;
+        grid-column: 1 / 4;
+    }
+    
+    main img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+}
